@@ -22,7 +22,15 @@ body
     padding-left:3%;
 }
 
+.quote{
+    float:right;
+    padding:30px;
 
+}
+
+.speaker{
+    padding-left:100px;
+}
 .boids
 {
   padding-top: 30%;
