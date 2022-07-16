@@ -1,0 +1,95 @@
+/* font-family: 'EB Garamond', serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Overpass Mono', monospace;
+font-family: 'Tai Heritage Pro', serif; */
+
+body
+{
+    font-family: 'IBM Plex Mono', monospace;
+    background-image: url("four.png");
+    background-color: black;
+}
+
+.boids
+{
+  padding-top: 30%;
+  padding-left: 20%;
+}
+
+.nav_right
+{
+    float: right;
+
+}
+
+.bottom_nav {
+    /* background-color: #333; */
+    float: bottom;
+  }
+.nav {
+    /* background-color: #333; */
+    overflow: hidden;
+  }
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .biglinks {
+    padding-top: 20%;
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14% 16%;
+  text-decoration: none;
+  font-size: 17px;
+}
+  .biglinks a {
+      padding-top: 20%;
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14% 16%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .biglinks a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+.nav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .garamond {
+    font-family: 'EB Garamond', serif;
+  }
+
+  #analog {
+    font-family: 'EB Garamond', serif;
+    font-size: 26px;
+  }
+
+
+.nav a.active {
+    color: rgb(255, 115, 0);
+  }
+
+
+  #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#6cf;
+ }
+
+ #backboids
+ {
+   float: bottom;
+ }
