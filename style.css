@@ -5,10 +5,23 @@ font-family: 'Tai Heritage Pro', serif; */
 
 body
 {
-    font-family: 'IBM Plex Mono', monospace;
-    background-image: url("four.png");
+    font-family: 'Share Tech Mono', monospace;
+    /* font-weight: normal; */
+    /* background-image: url("moirebg.png"); */
     background-color: black;
+    color: white;
+    padding-top: 1%;
+    padding-left: 2%;
 }
+
+.infodent {
+    padding-left:4%;
+}
+
+.opening {
+    padding-left:3%;
+}
+
 
 .boids
 {
