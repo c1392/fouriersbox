@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass+Mono:wght@300;400;500;600;700&family=Tai+Heritage+Pro:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">   
+    
+    
+    <title>C-1392</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+        <script src="https://github.com/processing/p5.js-sound/blob/main/lib/p5.sound.js"></script>
+
+        <!-- <script src="sketch.js"></script> -->
+
+    
+
+    </head>
+
+    <body>
+
+        <div class="nav">
+            <a href="index.html"><h1>C-1392: Fourier's Box</h1></a>
+
+            <div class="nav_right">
+                <a class = "garamond" id = "analog" href="darkside.html">dark side of oz [event]</a>
+            </div>
+            <br><br><br><br>
+            <h4>installation by Carson Levine</h4>
+
+          </div>
+
+        <br>
+        <img src="sutori.png" alt="sutori" class = "sutori">
+        <br><br><br><br>
+        <div class="opening">
+            <h4>opening event:</h4>
+            <br>
+            <div class = "infodent">
+                <h1>THE DARK SIDE OF OZ</h1>
+                <h3><a href="https://en.wikipedia.org/wiki/Dark_Side_of_the_Rainbow">an iconic technicolor pairing.</a> </h3>
+                <br>
+                <h3>tuesday, july 26th @ 8pm</h3>
+                <h3>location == BVAC lawn, 22 lebanon street</h3>
+                <br>
+                <h3> <br>juice boxes and popcorn provided.</h3>
+
+            </div>
+            <br><br><br><br><br>
+            <div class="darkquote">
+                “There is no dark side of the moon... It’s all dark, really.”
+                <br><br>
+                <div class = "speaker"> - Pink Floyd</div>
+            </div>
+            <div class="darkquote">
+                “For nearly forty years this story has given faithful service to the the Young in Heart; and Time has been powerless to put its kindly philosophy out of fashion.
+                To those of you who have been faithful to it in return
+                 ... and to the Young in Heart 
+                ... we dedicate this picture.”  <br><br>
+                <div class = "speaker">  - opening credits of “The Wizard of Oz”</div>
+                <br>
+            </div>
+            
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="grid-container">
+            <!-- images will come here -->
+        </div>
+        <script>
+            const gridContainer = document.querySelector('.grid-container');
+            for (let i = 1; i < 5; i++) {
+            const img = document.createElement('img');
+            img.src = `ozopening/${i}.png`;
+            gridContainer.append(img);
+            }
+        </script>
+            
+        
+
+
+    </body>
+</html>

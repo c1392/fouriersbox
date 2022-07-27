@@ -3,11 +3,28 @@ font-family: 'IBM Plex Mono', monospace;
 font-family: 'Overpass Mono', monospace;
 font-family: 'Tai Heritage Pro', serif; */
 
+.grid-container img{
+  width: 40%;
+  padding: 2.5%;
+}
+.background {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.sutori{
+  float:right;
+}
 body
 {
     font-family: 'Share Tech Mono', monospace;
     /* font-weight: normal; */
-    /* background-image: url("moirebg.png"); */
+    background-image: url("c1392.jpeg");
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+
+
     background-color: black;
     color: white;
     padding-top: 1%;
@@ -22,12 +39,28 @@ body
     padding-left:3%;
 }
 
-.quote{
-    float:left;
+.quoteindex{
+    float:right;
     padding:30px;
     padding-right:30px;
     font-size: 16px;
 
+}
+.quote{
+  float:left;
+  padding:30px;
+  padding-right:30px;
+  font-size: 16px;
+  z-index: 2;
+
+}
+
+.darkquote{
+  float:left;
+  /* padding:20px; */
+  padding-right:30px;
+  font-size: 14px;
+  z-index: 2;
 }
 
 .speaker{
@@ -45,6 +78,10 @@ body
 
 }
 
+.heading {
+  font-size: 23px;
+}
+
 .bottom_nav {
     /* background-color: #333; */
     float: bottom;
@@ -55,7 +92,7 @@ body
   }
 .nav a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,15 +110,15 @@ body
   .biglinks a {
       padding-top: 20%;
     float: center;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14% 16%;
     text-decoration: none;
     font-size: 17px;
   }
   .biglinks a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
 .nav a:hover {
@@ -95,7 +132,7 @@ body
 
   #analog {
     font-family: 'EB Garamond', serif;
-    font-size: 26px;
+    font-size: 22px;
   }
 
 
@@ -116,3 +153,12 @@ body
  {
    float: bottom;
  }
+ .status
+ {
+  font-size: 48px;
+  padding-left: 7%;
+  /* float:right; */
+ }
+
+ .tab { margin-left: 30%; }
+
